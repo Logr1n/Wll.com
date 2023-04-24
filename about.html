@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Магазин мебели W.L</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://previews.123rf.com/images/kchung/kchung1504/kchung150400194/38526323-3d-%EC%9A%B0%EC%95%84%ED%95%9C-%ED%99%A9%EA%B8%88-%ED%8E%B8%EC%A7%80-w-%EA%B2%80%EC%9D%80-%EB%B0%B0%EA%B2%BD%EC%97%90-%EA%B3%A0%EB%A6%BD.jpg">
+
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link menu__list-link--active" href="./about.html">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="./gallery.html">Галерея</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="http://localhost/site/desire/app/" class="logo">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="./blog.html">Блог</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="./contacts.html">Контакты</a>
+              </li>
+              <div class="button_input">
+                <a id="open_pop_up_input" href="#">Войти</a>
+              </div>
+              <div class="pop_up_input" id="pop_up_input">
+                <div class="pop_up_container_input">
+                  <div class="pop_up_body_input" id="pop_up_body_input">
+                    <p>Войти в аккаунт</p>
+                    <form action="">
+                      <input type="text" placeholder="Email">
+                      <input type="text" placeholder="Пароль">
+                      <button>Войти</button>
+                    </form>
+                    <div class="pop_up_close_input" id = "pop_up_close_input">&#10006</div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="button_reg">
+                <a id="open_pop_up_reg" href="#">Регистрация</a>
+              </div>
+              <div class="pop_up_reg" id="pop_up_reg">
+                <div class="pop_up_container_reg">
+                  <div class="pop_up_body_reg" id="pop_up_body_reg">
+                    <p>Зарегистрировать аккаунт</p>
+                    <form action="">
+                      <input type="text" placeholder="Введите ваш Email">
+                      <input type="text" placeholder="Придумайте пароль">
+                      <input type="text" placeholder="Повторите пароль">
+                      <button>Зарегистрироваться</button>
+                    </form>
+                    <div class="pop_up_close_reg" id = "pop_up_close_reg">&#10006</div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </nav>
+          <button class="header__btn-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <button class="header__btn">
+            <img src="images/icon_menu.svg" alt="icon menu">
+          </button>
+          <div class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu__close">
+              <img src="images/path.svg" alt="">
+            </button>
+            <div class="rightside-menu__content">
+              <a class="rightside-menu__logo" href="#">
+                <img src="images/logo.png" alt="logo">
+              </a>
+              <h4 class="rightside-menu__title">
+                Мебель для жизни
+              </h4>
+              <p class="rightside-menu__text">
+                Наша мебель поможет вам почувствовать комфорт, она сделана из самого качественного материла и проходила ряд проверок перед тем, как попасть на сайт.
+              </p>
+              <img class="rightside-menu__images" src="images/rightsite-img.jpg" alt="images">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">О нас</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="about">
+        <div class="about__prev">
+          <div class="container">
+            <h2 class="about__prev-title">
+              О нас
+            </h2>
+          </div>
+        </div>
+        <div class="about__content">
+          <div class="container">
+            <h3 class="about__title">Баланс в простоте благодаря осознанному сочетанию дизайна, функциональности и мастерства</h3>
+            <div class="about__text">
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+              <p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__popup">
+          <a class="about__popup-play" data-fancybox href="https://youtu.be/CvEttNvty0U">
+            <img class="about__popup-imgbtn" src="images/play-button.svg" alt="play button">
+          </a>
+        </div>
+      </section>
+      <section class="inspiration">
+        <div class="container-fluid">
+          <div class="inspiration__inner">
+            <img class="inspiration__images" src="images/inspiration-chair.png" alt="">
+            <div class="inspiration__content">
+              <h3 class="inspiration__title">
+                Наше вдохновение в деталях
+              </h3>
+              <p class="inspiration__text">
+                Идейные соображения высшего порядка, а также реализация намеченных плановых заданий позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+              </p>
+              <ul class="inspiration__list">
+                <li class="inspiration__item">
+                  <div class="inspiration__item-content">
+                    <p class="inspiration__item-text">Дизайн и технические чертежи</p>
+                    <p class="inspiration__num">80%</p>
+                  </div>
+                  <div class="inspiration__line" style="width: 80%;"></div>
+                </li>
+                <li class="inspiration__item">
+                  <div class="inspiration__item-content">
+                    <p class="inspiration__item-text">Измерения</p>
+                    <p class="inspiration__num">40%</p>
+                  </div>
+                  <div class="inspiration__line" style="width: 70%;"></div>
+                </li>
+                <li class="inspiration__item">
+                  <div class="inspiration__item-content">
+                    <p class="inspiration__item-text">Анализ функциональности мебели</p>
+                    <p class="inspiration__num">75%</p>
+                  </div>
+                  <div class="inspiration__line" style="width: 75%;"></div>
+                </li>
+                <li class="inspiration__item">
+                  <div class="inspiration__item-content">
+                    <p class="inspiration__item-text">Визуализация интерьера</p>
+                    <p class="inspiration__num">70%</p>
+                  </div>
+                  <div class="inspiration__line" style="width: 40%;"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="partners">
+        <div class="container-fluid">
+          <div class="partners__items">
+            <img class="partners__item" src="images/partners/part-1.svg" alt="">
+            <img class="partners__item" src="images/partners/part-2.svg" alt="">
+            <img class="partners__item" src="images/partners/part-1.svg" alt="">
+            <img class="partners__item" src="images/partners/part-2.svg" alt="">
+            <img class="partners__item" src="images/partners/part-1.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="collection">
+        <a class="collection__item" href="#">
+          <img class="collection__images" src="images/content/collection-1.jpg" alt="">
+          <div class="collection__info">
+            <h6 class="collection__info-title">
+              Аксессуары для комнат
+            </h6>
+            <p class="collection__info-text">
+              В этой категории вы найдете аксессуары для ваших комнат!
+            </p>
+          </div>
+        </a>
+        <a class="collection__item" href="#">
+          <img class="collection__images" src="images/content/collection-2.jpg" alt="">
+          <div class="collection__info">
+            <h6 class="collection__info-title">
+              Дорогая мебель
+            </h6>
+            <p class="collection__info-text">
+              В этой категории вы найдете всю дорогую мебель которая у нас есть!
+            </p>
+          </div>
+        </a>
+        <a class="collection__item" href="#">
+          <img class="collection__images" src="images/content/collection-3.jpg" alt="">
+          <div class="collection__info">
+            <h6 class="collection__info-title">
+              Кресла и торшеры
+            </h6>
+            <p class="collection__info-text">
+              В этой категории вы найдете кресла и торшеры для вашего дома!
+            </p>
+          </div>
+        </a>
+        <a class="collection__item" href="#">
+          <img class="collection__images" src="images/content/collection-4.jpg" alt="">
+          <div class="collection__info">
+            <h6 class="collection__info-title">
+              Вазы тумбы и картины
+            </h6>
+            <p class="collection__info-text">
+              В этой категории вы найдете красивые вазочки с тумбочками и картинами!
+            </p>
+          </div>
+        </a>
+        <a class="collection__item" href="#">
+          <img class="collection__images" src="images/content/collection-5.jpg" alt="">
+          <div class="collection__info">
+            <h6 class="collection__info-title">
+              Диваны и полки
+            </h6>
+            <p class="collection__info-text">
+              В этой категории вы найдете разнообразные диваны и полки для вашего дома!
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <h6 class="footer__info-title">
+                Контакты
+              </h6> 
+              <p class="footer__info-text">
+                Если вам что-то понравилось или у вас появились вовросы, то - напишите нам, и мы дадим вам ответы!
+              </p>
+              <a class="info-email" href="mailto:jetblack22890@gmail.com">
+              jetblack22890@gmail.com
+              </a>
+              <form class="footer__form">
+                <input class="footer__form-input" type="email" placeholder="Напишите нам свою почту">
+                <button class="footer__form-button" type="submit">Отправить</button>
+              </form>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--pinterest" href="#">Pinterest</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--whatsapp" href="#">WhatsApp</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--youtube" href="#">Youtube</a>
+              </li>
+            </ul>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Доставка</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Вопрос / ответ</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Помощь</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Больше о нас</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <p>
+            © Бренд: W.L. Все права защищены: 2022г.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Библиотека jQuery -->
+  <script src="js/mixitup.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/main.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
